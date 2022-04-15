@@ -1,2 +1,2 @@
 # comparing_strings
-This function compares two strings in terms of their individual elements (chars) and their lengths.
+This program compares two strings in terms of their individual elements (chars) and their lengths. In case their lengths are different, the user will still be allowed to compare their individual elements, unless the iteration hits an element that differs; in the latter case, the program will terminate, and in either case the function will return false. If, however, the lengths are the same, then the program will start comparing the individual elements; it returns true if all the elements are equal, and false otherwise.
